@@ -40,3 +40,9 @@ MORE INFORMATION
 
 Refer to the “Developing for Drupal” section of the README.txt in the Drupal
 root directory for further information on extending Drupal with custom modules.
+
+PROJET
+------
+
+Fisrtofall, I will develop an module for database connection. Then i will thinking about stats for EC (VE in French) to see economic impact of VE vs thermich car.
+Lastofall, i will to create an dynamic Curiculum Vitae like compeneces tree of skyrim and succes on steam.
