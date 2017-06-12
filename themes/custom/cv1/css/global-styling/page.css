@@ -1,0 +1,83 @@
+/*Tout les médias*/
+#page{
+		background: rgba(255,255,255,0);
+	}
+	#header{
+		background-color: unset;
+		background-image: linear-gradient(to bottom,#055a8e 0%,rgba(255,255,255,0) 100%);
+	}
+	#main-wrapper{
+		background: rgba(255,255,255,0.6);
+	}
+	.region-primary-menu .menu a{
+		border-bottom-left-radius: 8px;
+		border-bottom-right-radius: 8px;
+	}
+	.region-primary-menu .menu-item a.is-active{
+		background: rgba(255,255,255,0.4);
+	}
+	.region-primary-menu .menu-item a.is-active:hover{
+		background: rgba(255,255,255,1);
+	}
+	.site-footer{
+		background: #292929;
+		position: fixed;
+		bottom: 0px;
+		margin: 0% 40%;
+		width: 20%;
+		padding: 0px;
+	}
+	.site-footer__bottom{
+		margin-top: unset;
+		border-top: unset;
+		border-color: unset;
+	}
+	.site-footer__bottom .region{
+		margin-top: 0px;
+	}
+	.site-footer__bottom .block{
+		clear: none;
+		margin: unset;
+	}
+
+@media all and (min-width: 851px) {
+
+	body {
+	  	    color: #3b3b3b;
+		    background-image: url('../../images/fond2.png');
+		    background-repeat: no-repeat;
+		    background-size: cover;
+		    background-position: 0px 0px; 
+		    /*-600px*/
+		    background-color: black;
+	    
+	}
+}
+
+@media all and (min-width: 560px) and (max-width: 850px) {
+
+	body {
+	  	    color: #3b3b3b;
+		    background-image: url('../../images/fond2.png');
+		    background-repeat: no-repeat;
+		    background-size: unset;
+		    background-position: 0px 0px; 
+		    /*-600px*/
+		    background-color: black;
+	    
+	}
+}
+
+@media all and (max-width: 559px) {
+
+	body {
+	  	    color: #3b3b3b;
+		    background-image: url('../../images/fond.jpg');
+		    background-repeat: no-repeat;
+		    background-size: cover;
+		    background-position: 0px 0px; 
+		    /*-600px*/
+		    background-color: black;
+	    
+	}
+}
