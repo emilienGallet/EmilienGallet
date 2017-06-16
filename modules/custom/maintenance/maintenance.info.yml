@@ -1,0 +1,6 @@
+name: maintenance
+type: module
+description: Module de mainteance
+core: 8.x
+package: Other
+features: true

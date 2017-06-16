@@ -1,0 +1,34 @@
+<?php
+
+/**
+ * @file
+ * Contains maintenance.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function maintenance_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the maintenance module.
+    case 'help.page.maintenance':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Module de mainteance') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+function maintenance_theme() {
+  		return array(
+        'maintenance'/* '#theme' dans le controller'*/ => array(
+            'template' => 'maintenance',/* ./cvbasic/templates/maintenance.html.twig */
+            'variables' => array('values' => NULL)
+        )
+
+    );
+}

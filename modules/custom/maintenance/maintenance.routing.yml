@@ -1,0 +1,8 @@
+
+maintenance.default_controller_index:
+  path: '/maintenance'
+  defaults:
+    _controller: '\Drupal\maintenance\Controller\DefaultController::index'
+    _title: 'Erreur 404'
+  requirements:
+    _permission: 'access content'
