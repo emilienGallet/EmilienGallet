@@ -1,3 +1,9 @@
+/**
+	Ceci est le css de la page en générale du thème. 
+	Dans un commit futur, il sera spliter afin de géré au plus précisement chaque partie de page.
+	Peut-être spliter en régions.
+*/
+
 @media all and (min-width: 851px) {
 
 	body {
@@ -49,12 +55,24 @@
 		background-image: linear-gradient(to bottom,#055a8e 0%,rgba(255,255,255,0) 100%);
 	}
 
+.site-branding__logo{
+	margin-right: 0em;
+	margin-bottom: 0em;
+}
+
 .site-branding__logo > img{
 		border: 4px solid #0aa9ff;
 		border-radius: 50%;
 		max-width: 18%;
 		height: auto;
 	}
+
+.site-branding__name > a{
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-family: digital-7;
+}
 
 @media all and (min-width: 1290px){
 		.site-branding__text{
@@ -75,9 +93,22 @@
 	}
 }
 
+@font-face{
+	font-family: "digital-7";
+	src: url(/themes/custom/cv1/css/font/digital-7.ttf);
+}
+
+.breadcrumb{
+	font-family: "digital-7","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 #main-wrapper{
-		background: rgba(255,255,255,0.6);
+		background: rgba(255,255,255,0);
 	}
+
+main{
+	background: rgba(255,255,255,0.6);
+}
 
 .region-primary-menu .menu a{
 		border-bottom-left-radius: 8px;

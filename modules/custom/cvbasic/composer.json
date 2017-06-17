@@ -1,0 +1,14 @@
+{
+  "name": "drupal/cvbasic",
+  "type": "drupal-module",
+  "description": "Curriculum Vitae basique comme en version papier. Disponible en PDF.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/cvbasic",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "http://drupal.org/project/issues/cvbasic",
+    "source": "http://cgit.drupalcode.org/cvbasic"
+  },
+  "require": { }
+}

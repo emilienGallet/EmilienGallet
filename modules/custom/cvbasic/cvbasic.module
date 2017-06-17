@@ -1,0 +1,47 @@
+<?php
+
+/**
+ * @file
+ * Contains cvbasic.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function cvbasic_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the cvbasic module.
+    case 'help.page.cvbasic':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Curriculum Vitae basique comme en version papier. Disponible en PDF.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+/**
+ * Implémentation du hook_theme().
+ */
+function cvbasic_theme() {
+  		return array(
+        'cvbasique'/* '#theme' dans le controller'*/ => array(
+            'template' => 'cvbasique',/* ./cvbasic/templates/cvbasique.html.twig */
+            'variables' => array('values' => NULL)
+        )
+
+    );
+}
+/**
+ * Implémentation du hook_page_attachments().
+ */
+/*function cvbasic_page_attachments(array &$attachments) {
+  if (!\Drupal::currentUser()->hasPermission('access contextual links')) {
+    return;
+  }
+
+  $attachments['#attached']['library'][] = 'cvbasic/cvbasic-styling';
+}
+*/

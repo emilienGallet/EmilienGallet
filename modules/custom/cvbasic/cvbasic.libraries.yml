@@ -1,0 +1,5 @@
+cvbasic-styling:
+  version: 1.0
+  css:
+    theme:
+      css/cvbpage.css: {}

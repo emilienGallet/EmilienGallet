@@ -1,0 +1,8 @@
+name: cvBasic
+type: module
+description: Curriculum Vitae basique comme en version papier. Disponible en PDF.
+core: 8.x
+package: Cv
+features: true
+libraries:
+  - cvBasic/cvbasic-styling

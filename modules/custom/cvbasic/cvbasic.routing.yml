@@ -1,0 +1,9 @@
+
+cvbasic.info_controller_index:
+  path: '/Curriculum Vitae/traditionel'
+  defaults:
+    _controller: '\Drupal\cvbasic\Controller\InfoController::index'
+    _title: 'Curriculum Vitae'
+  requirements:
+    _permission: 'access content'
+

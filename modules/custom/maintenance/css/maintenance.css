@@ -1,0 +1,9 @@
+#underbulding{
+	background-image: repeating-linear-gradient(75deg,yellow ,yellow ,black,black 50px, yellow 1px);
+}
+
+#underbulding p{
+	color: #ff00e1;
+	font-family: "Impact";
+	text-align: center;
+}

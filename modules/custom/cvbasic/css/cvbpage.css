@@ -1,0 +1,139 @@
+/**
+ * L'objectif de cette feuille de syle est de modifier l'ensemble de la page et même du theme principal.
+ * Pourautant, même en définissant le poid du CSS a theme (200) comme indiquer ici : 
+ * https://www.drupal.org/docs/8/creating-custom-modules/adding-stylesheets-css-and-javascript-js-to-a-drupal-8-module
+ * Le theming définit dans themes/custom/cv1/css/global-styling/page.css 
+ * 	reste > à 
+ * modules/custom/cvbasic/css/cvbpage.css
+ *
+ * En attendant, une méthode peu aprécier du saint-siège est appliquer : !important dans le template utiliser.
+*/
+
+body{
+	/*background-image: none !important; */
+}
+
+.page-title{
+	text-align: center;
+}
+
+em{
+	font-weight: bold;
+}
+#card{
+	position: relative;
+	border-radius: 20px;
+	background-color: #c8ffba80;
+	border-style: solid;
+	border-color: rgba(0,100,255,0.7);
+	border-width: 5px;
+	padding: 3px;
+	background-image: repeating-linear-gradient(285deg,#6bcf4c99 ,#ff00 ,#ff00 ,#ff00 50px, #fff 1px);
+}
+
+#imgcard,#idcard{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+div > img {
+	border-radius: 10%;
+	border: 2px dashed rgba(0,100,255,0.7) ;
+}
+
+@media all and (min-width: 884px){
+	div > img{
+		width: 120px;
+		height: 140px;
+	}
+}
+@media all and (min-width: 849px) and (max-width: 883px){
+	div > img{
+		width: 102px;
+		height: 122px;
+	}
+}
+
+@media all and (max-width: 850px){
+	div > img{
+		width: 120px;
+		height: 140px;
+	}
+}
+
+.cvId p{
+	line-height: 11px;
+}
+.cvId > span{
+	font-family: digital-7;
+}
+
+em > img{
+	width:20px;
+	height:20px;
+}
+#SIG, #SLAM{
+	position: relative;
+}
+
+#SIG:hover::after , #SIG > img:hover::after{
+	position: absolute;
+	left: 0px;
+	content: "Science Informatique en Gestion";
+	color: rgba(0,100,255,0.7);
+	bottom: -16px;
+	width: 117%;
+}
+
+#SLAM:hover::after , #SLAM > img:hover::after{
+	position: absolute;
+	left: 0px;
+	content: "Service informatique aux organisation ; Dévellopeur";
+	color: rgba(0,100,255,0.7);
+	bottom: -16px;
+	width: 200%;
+}
+
+@media all and (min-width: 454px){
+	#SLAM:hover::after , #SLAM > img:hover::after{
+		position: absolute;
+		left: 0px;
+		content: "Service informatique aux organisation ; Dévellopeur";
+		color: rgba(0,100,255,0.7);
+		bottom: -16px;
+		width: 200%;
+	}
+}
+@media all and (max-width: 453px){
+	#SLAM:hover::after , #SLAM > img:hover::after{
+		position: absolute;
+		left: 0px;
+		content: "Service informatique aux organisation ; Dévellopeur";
+		color: rgba(0,100,255,0.7);
+		bottom: -40px;
+		width: 100%;
+		background-color: #ffffff80;
+		border-width: 1px;
+		border-style: dashed;
+
+	}
+}
+#card h1{
+	position: absolute;
+	font-family: impact;
+	right: 20px;
+	top: 0px;
+}
+
+/*em::after{
+	background-image: url();
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    content:"";
+    margin-left: 2px;
+}
+em:hover::after{
+	display: hidden;
+}*/
