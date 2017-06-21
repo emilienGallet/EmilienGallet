@@ -10,7 +10,7 @@
 */
 
 body{
-	/*background-image: none !important; */
+	background-image: url(/modules/custom/cvbasic/images/keyboard.jpg) !important;
 }
 
 .page-title{
@@ -31,31 +31,51 @@ em{
 	background-image: repeating-linear-gradient(285deg,rgba(107, 207, 76, 0.5) ,rgba(255, 255, 255, 0.0) ,rgba(255, 255, 255, 0.0) ,rgba(255, 255, 255, 0) 50px, rgba(255, 255, 255, 1) 1px);
 }
 
+#card h1{
+	position: absolute;
+	font-family: impact;
+	right: 5px;
+	top: -15px;
+}
+
+#github{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	right: 5px;
+	top: 27px;
+}
+
+#github:hover{
+	background-color: white;
+	border-radius: 50%;
+}
+
 #imgcard,#idcard{
 	display: inline-block;
 	vertical-align: middle;
 }
 
-div > img {
+#imgcard img {
 	border-radius: 10%;
 	border: 2px dashed rgba(0,100,255,0.7) ;
 }
 
 @media all and (min-width: 884px){
-	div > img{
+	#imgcard > img{
 		width: 120px;
 		height: 140px;
 	}
 }
 @media all and (min-width: 849px) and (max-width: 883px){
-	div > img{
+	#imgcard > img{
 		width: 102px;
 		height: 122px;
 	}
 }
 
 @media all and (max-width: 850px){
-	div > img{
+	#imgcard > img{
 		width: 120px;
 		height: 140px;
 	}
@@ -83,6 +103,13 @@ em > img{
 	color: rgba(0,100,255,0.7);
 	bottom: -16px;
 	width: 117%;
+}
+@media all and (max-width: 453px){
+	#SIG:hover::after , #SIG > img:hover::after{
+		background-color: rgba(255,255,255,0.7);
+		border-width: 1px;
+		border-style: dashed;
+	}
 }
 
 #SLAM:hover::after , #SLAM > img:hover::after{
@@ -112,18 +139,13 @@ em > img{
 		color: rgba(0,100,255,0.7);
 		bottom: -40px;
 		width: 100%;
-		background-color: #ffffff80;
+		background-color: rgba(255,255,255,0.7);
 		border-width: 1px;
 		border-style: dashed;
 
 	}
 }
-#card h1{
-	position: absolute;
-	font-family: impact;
-	right: 5px;
-	top: -15px;
-}
+
 
 /*em::after{
 	background-image: url();

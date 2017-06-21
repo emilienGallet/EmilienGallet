@@ -3,3 +3,9 @@ global-styling:
   css:
     theme:
       css/global-styling/page.css: {}
+
+nodedrupalstyling:
+  version: 1.0
+  css:
+    theme:
+      css/global-styling/nodedrupalstyling.css: {}
