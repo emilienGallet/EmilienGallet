@@ -5,7 +5,7 @@ global-styling:
       css/global-styling/page.css: {}
 
 nodedrupalstyling:
-  version: 1.0
+  version: 1.1
   css:
     theme:
       css/global-styling/nodedrupalstyling.css: {}
