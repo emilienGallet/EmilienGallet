@@ -1,0 +1,36 @@
+@media all and (min-width: 850px) {
+	body {
+	  	    color: #3b3b3b;
+		    background-image: url('/themes/custom/cv1/images/20170620_093725.jpg');
+		    background-repeat: no-repeat;
+		    background-size: unset;
+		    background-position: center; 
+		    background-attachment: fixed;
+		    background-color: black;
+	    
+	}
+}
+@media all and (min-width: 560px) and (max-width: 850px) {
+	body {
+	  	    color: #3b3b3b;
+		    background-image: url('/themes/custom/cv1/images/20170620_093725.jpg');
+		    background-repeat: no-repeat;
+		    background-size: unset;
+		    background-position: center; 
+		    background-attachment: fixed;
+		    background-color: black;
+	    
+	}
+}
+@media all and (max-width: 560px) {
+	body {
+	  	    color: #3b3b3b;
+		    background-image: url('/themes/custom/cv1/images/20170620_093725.jpg');
+		    background-repeat: no-repeat;
+		    background-size: unset;
+		    background-position: center; 
+		    background-attachment: fixed;
+		    background-color: black;
+	    
+	}
+}
