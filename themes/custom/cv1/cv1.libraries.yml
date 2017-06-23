@@ -9,3 +9,9 @@ nodedrupalstyling:
   css:
     theme:
       css/global-styling/nodedrupalstyling.css: {}
+
+nodeunicefstyling:
+  version: 1.0
+  css:
+    theme:
+      css/global-styling/nodeunicefstyling.css: {}
