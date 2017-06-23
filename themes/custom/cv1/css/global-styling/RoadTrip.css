@@ -1,36 +1,44 @@
 @media all and (min-width: 850px) {
+
 	body {
 	  	    color: #3b3b3b;
-		    background-image: url('/themes/custom/cv1/images/Siegeunicef.jpg');
+		    background-image: url('/themes/custom/cv1/audio&vidéo/roadtrip.gif');
 		    background-repeat: no-repeat;
 		    background-size: cover;
 		    background-position: center; 
 		    background-attachment: fixed;
 		    background-color: black;
+		    animation-iteration-count: infinite;
 	    
 	}
 }
+
 @media all and (min-width: 560px) and (max-width: 850px) {
+
 	body {
 	  	    color: #3b3b3b;
-		    background-image: url('/themes/custom/cv1/images/Siegeunicef.jpg');
+		    background-image: url('/themes/custom/cv1/audio&vidéo/roadtrip.gif');
 		    background-repeat: no-repeat;
 		    background-size: cover;
 		    background-position: center; 
 		    background-attachment: fixed;
 		    background-color: black;
+		    animation-iteration-count: infinite;
 	    
 	}
 }
+
 @media all and (max-width: 560px) {
+
 	body {
 	  	    color: #3b3b3b;
-		    background-image: url('/themes/custom/cv1/images/Siegeunicef.jpg');
+		    background-image: url('/themes/custom/cv1/audio&vidéo/roadtrip.gif');
 		    background-repeat: no-repeat;
 		    background-size: cover;
 		    background-position: center; 
 		    background-attachment: fixed;
 		    background-color: black;
+		    animation-iteration-count: infinite;
 	    
 	}
 }
