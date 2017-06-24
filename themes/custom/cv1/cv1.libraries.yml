@@ -17,7 +17,7 @@ nodeunicefstyling:
       css/global-styling/nodeunicefstyling.css: {}
 
 roadtrip:
-  version: 1.1
+  version: 1.2
   css:
     theme:
       css/global-styling/RoadTrip.css: {}
