@@ -2,7 +2,7 @@
 
 	body {
 	  	    color: #3b3b3b;
-		    background-image: url('');
+		    background-image: url('../../images/default.gif');
 		    background-repeat: no-repeat;
 		    background-size: cover;
 		    background-position: center; 
@@ -17,7 +17,7 @@
 
 	body {
 	  	    color: #3b3b3b;
-		    background-image: url('');
+		    background-image: url('../../images/default.gif');
 		    background-repeat: no-repeat;
 		    background-size: cover;
 		    background-position: center; 
@@ -32,7 +32,7 @@
 
 	body {
 	  	    color: #3b3b3b;
-		    background-image: url('');
+		    background-image: url('../../images/default.gif');
 		    background-repeat: no-repeat;
 		    background-size: cover;
 		    background-position: center; 
@@ -55,4 +55,8 @@ video{
 	transform: translateX(-50%) translateY(-50%);
 	transition: 1s opacity;
 	
+}
+
+iframe{
+	width: 100%;
 }
